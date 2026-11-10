@@ -1,32 +1,66 @@
 # Hindi Poetry RAG: Ecological and Cultural Elements
 
 ## Project Overview
-This project explores how Retrieval-Augmented Generation (RAG)
-can be used to retrieve and interpret ecological and cultural
-references in Hindi poetry.
+
+This project explores the use of Retrieval-Augmented Generation (RAG) to retrieve and interpret ecological and cultural references in Hindi poetry, using selected passages from *Kamayani* by Jaishankar Prasad.
+
+The project combines multilingual text embeddings, semantic retrieval, and a generative language model to answer questions grounded in retrieved poetic passages.
 
 ## Research Focus
-- Flora and fauna
+
+- Flora and fauna in Hindi poetry
 - Rivers, water and landscapes
 - Natural elements and seasons
 - Cultural and metaphorical meanings
+- Human–nature relationships
 
 ## Primary Text
-Kamayani by Jaishankar Prasad
 
-## Proposed Method
-1. Select and verify the source text.
-2. Prepare a small, documented poetry corpus.
-3. Divide the text into meaningful chunks.
-4. Generate embeddings and create a searchable index.
-5. Retrieve relevant passages in response to questions.
-6. Generate answers grounded in retrieved passages.
+*Kamayani* — Jaishankar Prasad
 
-## Research Ethics
-All literary texts will be checked for copyright status
-and properly attributed.
+The experimental corpus includes selected passages from three sargs:
 
-## Limitations
-The system's interpretations may not capture every
-literary nuance. Retrieved passages will be used as
-evidence rather than treating generated answers as facts.
+- Chinta (चिंता)
+- Asha (आशा)
+- Shraddha (श्रद्धा)
+
+## Methodology
+
+1. Prepared a small poetry corpus containing 15 passages.
+2. Divided the passages into 43 text chunks.
+3. Generated multilingual embeddings using `paraphrase-multilingual-MiniLM-L12-v2`.
+4. Implemented semantic retrieval using cosine similarity.
+5. Retrieved relevant passages for user queries.
+6. Generated context-grounded Hindi answers using Gemini.
+7. Conducted preliminary manual relevance assessment of retrieved passages.
+8. Created flora-fauna frequency analysis and a co-occurrence network using Gephi.
+
+## Tools and Technologies
+
+- Python
+- Google Colab
+- Pandas and NumPy
+- Sentence Transformers
+- Gemini API
+- Gephi
+- GitHub
+
+## Preliminary Outputs
+
+- 15 poetry passages
+- 43 text chunks
+- 384-dimensional text embeddings
+- Semantic retrieval results
+- Preliminary manual retrieval evaluation
+- Flora and fauna frequency visualization
+- Co-occurrence network with 10 nodes and 19 edges
+
+## Research Ethics and Limitations
+
+The project is an experimental prototype, not a complete analysis of the entire *Kamayani* text.
+
+The corpus covers only three sargs and the keyword-based ecological analysis may miss synonyms, metaphorical references and inflected word forms.
+
+Generated interpretations may not capture every literary nuance. Therefore, retrieved passages are treated as supporting evidence rather than definitive interpretations.
+
+The source text is attributed to its respective source. API credentials are not included in the repository.
