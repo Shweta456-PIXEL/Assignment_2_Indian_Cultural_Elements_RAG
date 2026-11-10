@@ -47,13 +47,14 @@ The experimental corpus includes selected passages from three sargs:
 
 ## Preliminary Outputs
 
-- 15 poetry passages
-- 43 text chunks
-- 384-dimensional text embeddings
-- Semantic retrieval results
-- Preliminary manual retrieval evaluation
-- Flora and fauna frequency visualization
-- Co-occurrence network with 10 nodes and 19 edges
+- 15 selected poetry passages from three sargs
+- 43 text chunks for retrieval
+- 384-dimensional multilingual text embeddings
+- Semantic retrieval results for ecological queries
+- Preliminary manual relevance assessment (12 judgments)
+- Flora and fauna keyword frequency analysis
+- Gephi co-occurrence network with 10 nodes and 19 edges
+- Gemini-generated Hindi responses grounded in retrieved passages
 
 ## Research Ethics and Limitations
 
