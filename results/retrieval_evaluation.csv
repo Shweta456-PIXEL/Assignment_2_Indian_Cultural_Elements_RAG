@@ -1,0 +1,13 @@
+query,chunk_id,manual_relevance
+Water and rivers,KMY_007,Relevant
+Water and rivers,KMY_013,Relevant
+Mountains and Himalaya,KMY_021,Highly Relevant
+Human-nature relationship,KMY_025,Relevant
+Human-nature relationship,KMY_007,Relevant
+Human-nature relationship,KMY_043,Relevant
+Vegetation,KMY_003,Partially Relevant
+Vegetation,KMY_025,Relevant
+Vegetation,KMY_043,Partially Relevant
+Destruction and Pralaya,KMY_007,Highly Relevant
+Destruction and Pralaya,KMY_001,Highly Relevant
+Destruction and Pralaya,KMY_010,Highly Relevant
